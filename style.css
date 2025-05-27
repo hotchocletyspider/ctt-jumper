@@ -11,10 +11,21 @@ body {
     width: 94%
 }
 
+.imgwrap {
+    display: flex;
+    align-items: center;
+    margin-left: -7%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 #throbber {
     width: 50%;
-    margin: 10px;
-    margin-left: 20%;
+    /* margin: 10px; */
+    /* position: absolute; */
+    margin: auto;
+    /* align-items: center; */
+
 }
 
 header {
@@ -22,18 +33,35 @@ header {
 }
 
 h1 {
-    font-size: 3.8em;
+    font-size: 13.75vw;
     margin-bottom: 10px;
     margin-left: 10px;
 }
 
+#x {
+    height: 4vw;
+    position: fixed;
+    right: 25px;
+    top: 80px;
+}
+
+#subtitle {
+    font-size: 4vw;
+}
+
 h2 {
     margin-bottom: -15px;
+    font-size: 6.25vw;
 }
 
 h3 {
     font-weight: normal;
-    font-size: 1.7em;
+    font-size: 6vw;
+}
+
+h4 {
+    color: #535558;
+    font-size: 4vw;
 }
 
 main {
@@ -47,7 +75,7 @@ main {
 }
 
 #stops {
-    font-size: 0.9em;
+    font-size: 3.5vw;
     color: gray;
     line-height: 170%;
     margin-top: -20px;
